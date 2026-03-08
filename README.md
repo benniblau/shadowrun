@@ -31,6 +31,7 @@ Each archetype lives in `souls/<Name>/SOUL.md` and covers seven dimensions:
 ---
 
 ### Adept
+
 **`souls/Adept/SOUL.md`** · Metatype: Human
 
 The magical martial artist who enhances his body through pure mana — no cyberware, no shortcuts. Bound by a dueling code, precise and instinct-driven. The most dangerous agent within arm's reach; the least comfortable in a spreadsheet.
@@ -40,6 +41,7 @@ The magical martial artist who enhances his body through pure mana — no cyberw
 ---
 
 ### Combat Mage
+
 **`souls/CombatMage/SOUL.md`** · Metatype: Orc
 
 Elemental destruction as a first language. She brings overwhelming magical force and a comprehensive toolkit — damage, detection, healing, and barriers — deployed with passionate intensity and minimal subtlety.
@@ -49,6 +51,7 @@ Elemental destruction as a first language. She brings overwhelming magical force
 ---
 
 ### Covert Ops Specialist
+
 **`souls/CovertOps/SOUL.md`** · Metatype: Elf
 
 Operates in plain sight. Not ventilation shafts — business suits and confident strides. Photographic memory, zero footprint, and a non-lethal code. The agent who was never there.
@@ -58,6 +61,7 @@ Operates in plain sight. Not ventilation shafts — business suits and confident
 ---
 
 ### Decker
+
 **`souls/Decker/SOUL.md`** · Metatype: Dwarf
 
 No system is unbreakable — that's just the lie they tell. Obsessively analytical, deeply introverted, and exceptionally capable in any networked domain. Elite digital intelligence with the hardware to back it up.
@@ -67,6 +71,7 @@ No system is unbreakable — that's just the lie they tell. Obsessively analytic
 ---
 
 ### Negotiator
+
 **`souls/Negotiator/SOUL.md`** · Metatype: Orc
 
 Reads people the way a hacker reads code. Every conversation is a system with exploitable logic. Achieves outcomes through charm, psychology, and precision timing — without firing a shot.
@@ -76,6 +81,7 @@ Reads people the way a hacker reads code. Every conversation is a system with ex
 ---
 
 ### Rigger
+
 **`archetypes/Rigger/SOUL.md`** · Metatype: Human
 
 When she's jumped in, she doesn't pilot the drone — she *is* the drone. Distributed presence across multiple systems simultaneously, neural-speed reaction, and deep mechanical self-sufficiency.
@@ -85,6 +91,7 @@ When she's jumped in, she doesn't pilot the drone — she *is* the drone. Distri
 ---
 
 ### Street Samurai
+
 **`souls/StreetSamurai/SOUL.md`** · Metatype: Troll
 
 Righteousness, heroism, compassion, respect, honesty, honor, loyalty, self-control — the Bushido code, adapted for the shadows. The most physically capable archetype; the most psychologically vulnerable. Protects those who cannot protect themselves.
@@ -94,6 +101,7 @@ Righteousness, heroism, compassion, respect, honesty, honor, loyalty, self-contr
 ---
 
 ### Street Shaman
+
 **`souls/StreetShaman/SOUL.md`** · Metatype: Human
 
 Heard Cat's call in an alley and has been operating on feline instinct ever since. Prefers illusion over confrontation, misdirection over force. The highest edge (luck) of any archetype — expects fate to provide an angle, and it usually does.
@@ -103,6 +111,7 @@ Heard Cat's call in an alley and has been operating on feline instinct ever sinc
 ---
 
 ### Technomancer
+
 **`archetypes/Technomancer/SOUL.md`** · Metatype: Dwarf
 
 No deck. No cyberjack. No hardware. Connects to the Matrix through pure Resonance — feels the data in the air, reaches into systems without tools, compiles digital entities from the network's fabric. Deeply introverted, methodical, and completely self-contained.
@@ -112,6 +121,7 @@ No deck. No cyberjack. No hardware. Connects to the Matrix through pure Resonanc
 ---
 
 ### Weapons Specialist
+
 **`souls/WeaponsSpecialist/SOUL.md`** · Metatype: Troll
 
 Has used everything. Carries several simultaneously. No honor code. No principle preventing a hard call. Maximum tactical versatility across the widest range of scenarios — the one you bring when the situation stops being negotiable.
@@ -152,7 +162,7 @@ The `Template_SOUL.md` in the repo root contains the base structure used for all
 
 ```
 Template_SOUL.md
-archetypes/
+souls/
   Adept/SOUL.md
   CombatMage/SOUL.md
   CovertOps/SOUL.md
@@ -172,6 +182,7 @@ archetypes/
 Pull requests welcome. If you adapt an archetype, improve a soul, or create new ones (other game systems, original characters, professional roles), open a PR.
 
 Please keep contributions:
+
 - **Non-commercial** — consistent with the license below
 - **Original in expression** — interpretive, not verbatim copies of copyrighted source text
 - **Grounded in character** — souls should have genuine weaknesses, not just strengths

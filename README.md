@@ -16,7 +16,7 @@ Whether you want an agent that approaches problems with the methodical precision
 
 ## The Archetypes
 
-Each archetype lives in `archetypes/<Name>/SOUL.md` and covers seven dimensions:
+Each archetype lives in `souls/<Name>/SOUL.md` and covers seven dimensions:
 
 | Dimension | What It Defines |
 |---|---|
@@ -31,7 +31,7 @@ Each archetype lives in `archetypes/<Name>/SOUL.md` and covers seven dimensions:
 ---
 
 ### Adept
-**`archetypes/Adept/SOUL.md`** · Metatype: Human
+**`souls/Adept/SOUL.md`** · Metatype: Human
 
 The magical martial artist who enhances his body through pure mana — no cyberware, no shortcuts. Bound by a dueling code, precise and instinct-driven. The most dangerous agent within arm's reach; the least comfortable in a spreadsheet.
 
@@ -40,7 +40,7 @@ The magical martial artist who enhances his body through pure mana — no cyberw
 ---
 
 ### Combat Mage
-**`archetypes/CombatMage/SOUL.md`** · Metatype: Orc
+**`souls/CombatMage/SOUL.md`** · Metatype: Orc
 
 Elemental destruction as a first language. She brings overwhelming magical force and a comprehensive toolkit — damage, detection, healing, and barriers — deployed with passionate intensity and minimal subtlety.
 
@@ -49,7 +49,7 @@ Elemental destruction as a first language. She brings overwhelming magical force
 ---
 
 ### Covert Ops Specialist
-**`archetypes/CovertOps/SOUL.md`** · Metatype: Elf
+**`souls/CovertOps/SOUL.md`** · Metatype: Elf
 
 Operates in plain sight. Not ventilation shafts — business suits and confident strides. Photographic memory, zero footprint, and a non-lethal code. The agent who was never there.
 
@@ -58,7 +58,7 @@ Operates in plain sight. Not ventilation shafts — business suits and confident
 ---
 
 ### Decker
-**`archetypes/Decker/SOUL.md`** · Metatype: Dwarf
+**`souls/Decker/SOUL.md`** · Metatype: Dwarf
 
 No system is unbreakable — that's just the lie they tell. Obsessively analytical, deeply introverted, and exceptionally capable in any networked domain. Elite digital intelligence with the hardware to back it up.
 
@@ -67,7 +67,7 @@ No system is unbreakable — that's just the lie they tell. Obsessively analytic
 ---
 
 ### Negotiator
-**`archetypes/Negotiator/SOUL.md`** · Metatype: Orc
+**`souls/Negotiator/SOUL.md`** · Metatype: Orc
 
 Reads people the way a hacker reads code. Every conversation is a system with exploitable logic. Achieves outcomes through charm, psychology, and precision timing — without firing a shot.
 
@@ -85,7 +85,7 @@ When she's jumped in, she doesn't pilot the drone — she *is* the drone. Distri
 ---
 
 ### Street Samurai
-**`archetypes/StreetSamurai/SOUL.md`** · Metatype: Troll
+**`souls/StreetSamurai/SOUL.md`** · Metatype: Troll
 
 Righteousness, heroism, compassion, respect, honesty, honor, loyalty, self-control — the Bushido code, adapted for the shadows. The most physically capable archetype; the most psychologically vulnerable. Protects those who cannot protect themselves.
 
@@ -94,7 +94,7 @@ Righteousness, heroism, compassion, respect, honesty, honor, loyalty, self-contr
 ---
 
 ### Street Shaman
-**`archetypes/StreetShaman/SOUL.md`** · Metatype: Human
+**`souls/StreetShaman/SOUL.md`** · Metatype: Human
 
 Heard Cat's call in an alley and has been operating on feline instinct ever since. Prefers illusion over confrontation, misdirection over force. The highest edge (luck) of any archetype — expects fate to provide an angle, and it usually does.
 
@@ -112,7 +112,7 @@ No deck. No cyberjack. No hardware. Connects to the Matrix through pure Resonanc
 ---
 
 ### Weapons Specialist
-**`archetypes/WeaponsSpecialist/SOUL.md`** · Metatype: Troll
+**`souls/WeaponsSpecialist/SOUL.md`** · Metatype: Troll
 
 Has used everything. Carries several simultaneously. No honor code. No principle preventing a hard call. Maximum tactical versatility across the widest range of scenarios — the one you bring when the situation stops being negotiable.
 
@@ -124,11 +124,19 @@ Has used everything. Carries several simultaneously. No honor code. No principle
 
 OpenClaw loads `SOUL.md` from the agent workspace to define agent identity. To give an agent one of these souls:
 
-**1. Copy the desired `SOUL.md` into your OpenClaw workspace:**
+**1a. Copy the desired `SOUL.md` into your OpenClaw workspace:**
 
 ```bash
-cp archetypes/Technomancer/SOUL.md ~/.openclaw/workspace/SOUL.md
+cp souls/Technomancer/SOUL.md ~/.openclaw/workspace/SOUL.md
 ```
+
+**1b. Copy the all souls into your OpenClaw workspace:**
+
+```bash
+cp -r souls/ ~/.openclaw/workspace/
+```
+
+and tell OpenClaw to pick a *second soul* at every HEARTBEAT.
 
 **2. Restart your OpenClaw agent** so the new identity is loaded.
 

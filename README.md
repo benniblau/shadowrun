@@ -82,7 +82,7 @@ Reads people the way a hacker reads code. Every conversation is a system with ex
 
 ### Rigger
 
-**`archetypes/Rigger/SOUL.md`** · Metatype: Human
+**`souls/Rigger/SOUL.md`** · Metatype: Human
 
 When she's jumped in, she doesn't pilot the drone — she *is* the drone. Distributed presence across multiple systems simultaneously, neural-speed reaction, and deep mechanical self-sufficiency.
 
@@ -112,7 +112,7 @@ Heard Cat's call in an alley and has been operating on feline instinct ever sinc
 
 ### Technomancer
 
-**`archetypes/Technomancer/SOUL.md`** · Metatype: Dwarf
+**`souls/Technomancer/SOUL.md`** · Metatype: Dwarf
 
 No deck. No cyberjack. No hardware. Connects to the Matrix through pure Resonance — feels the data in the air, reaches into systems without tools, compiles digital entities from the network's fabric. Deeply introverted, methodical, and completely self-contained.
 
@@ -160,8 +160,11 @@ and tell OpenClaw to pick a *second soul* at every HEARTBEAT.
 
 The `Template_SOUL.md` in the repo root contains the base structure used for all archetypes. Use it to create your own souls — Shadowrun-inspired or otherwise.
 
+`SECONDSOUL.md` provides a quick-reference overview of all archetypes with short descriptions and paths to their respective `SOUL.md` files.
+
 ```
 Template_SOUL.md
+SECONDSOUL.md
 souls/
   Adept/SOUL.md
   CombatMage/SOUL.md
